@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#json files
+.json 
+lock.json
+kharl-airbnb/package-lock.json
+package-lock.json
