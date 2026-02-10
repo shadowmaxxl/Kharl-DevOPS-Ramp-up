@@ -2,7 +2,9 @@ import { Nunito } from "next/font/google";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import type { Metadata } from "next";
-import Navbar from "./components/navbar/Navbar.tsx";
+import Navbar from "./components/navbar/Navbar";
+import Image from "next/image";
+import logo from "./components/navbar/Logo";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
